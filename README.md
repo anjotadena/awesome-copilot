@@ -15,6 +15,16 @@ This repository provides a comprehensive toolkit for enhancing GitHub Copilot wi
 - **👉 [Awesome Collections](docs/README.collections.md)** - Curated collections of related prompts, instructions, agents, and skills organized around specific themes and workflows
 - **👉 [Awesome Cookbook Recipes](cookbook/README.md)** - Practical, copy-paste-ready code snippets and real-world examples for working with GitHub Copilot tools and features
 
+## 🚀 Getting Started
+
+### Quick Setup by IDE
+
+- **Visual Studio Code:** [One-click install](https://aka.ms/awesome-copilot/mcp/vscode) or see [detailed VS Code setup](docs/IDE-SETUP.md#visual-studio-code)
+- **Visual Studio:** [Installation guide](docs/IDE-SETUP.md#visual-studio) with step-by-step instructions
+- **Other IDEs:** Check our [comprehensive IDE setup guide](docs/IDE-SETUP.md#other-ides) for JetBrains, Neovim, and more
+
+**New to this repository?** Start with our [IDE Setup Guide](docs/IDE-SETUP.md) to learn how to install and use agents, prompts, and instructions in your development environment.
+
 ## 🌟 Featured Collections
 
 Discover our curated collections of prompts, instructions, and agents organized around specific themes and workflows.
