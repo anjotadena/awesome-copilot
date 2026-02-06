@@ -32,6 +32,8 @@ To make it easy to add these customizations to your editor, we have created a [M
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vscode) [![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?logo=visualstudiocode&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vscode-insiders) [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install-C16FDE?logo=visualstudio&logoColor=white)](https://aka.ms/awesome-copilot/mcp/vs)
 
+**Need help setting up?** See the [MCP Server Configuration](docs/IDE-SETUP.md#mcp-server-configuration) section in our IDE Setup Guide.
+
 <details>
 <summary>Show MCP Server JSON configuration</summary>
 
@@ -60,6 +62,8 @@ An [`llms.txt`](https://github.github.io/awesome-copilot/llms.txt) file followin
 
 ## 🔧 How to Use
 
+**📖 Detailed Setup Instructions:** See our [comprehensive IDE Setup Guide](docs/IDE-SETUP.md) for step-by-step installation instructions for your IDE, including Visual Studio, VS Code, JetBrains IDEs, and more.
+
 ### 🔌 Plugins
 
 Plugins are installable packages generated from collections. Each plugin contains symlinked agents, commands (prompts), and skills from the source collection, making it easy to install a curated set of resources.
@@ -84,6 +88,8 @@ Alternatively, you can use the `/plugin` command within a Copilot chat session t
 
 Custom agents can be used in Copilot coding agent (CCA), VS Code, and Copilot CLI (coming soon). For CCA, when assigning an issue to Copilot, select the custom agent from the provided list. In VS Code, you can activate the custom agent in the agents session, alongside built-in agents like Plan and Agent.
 
+**Visual Studio users:** See the [Visual Studio section](docs/IDE-SETUP.md#visual-studio) for specific setup instructions and current limitations.
+
 ### 🎯 Prompts
 
 Use the `/` command in GitHub Copilot Chat to access prompts:
@@ -92,9 +98,13 @@ Use the `/` command in GitHub Copilot Chat to access prompts:
 /awesome-copilot create-readme
 ```
 
+**Note:** Slash command support varies by IDE. See the [feature comparison](docs/IDE-SETUP.md#feature-comparison) for details.
+
 ### 📋 Instructions
 
 Instructions automatically apply to files based on their patterns and provide contextual guidance for coding standards, frameworks, and best practices.
+
+**Works across IDEs:** Instructions have the broadest support across different development environments.
 
 ## 🎯 Why Use Awesome GitHub Copilot?
 
